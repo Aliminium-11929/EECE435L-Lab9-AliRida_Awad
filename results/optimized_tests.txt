@@ -1,0 +1,8 @@
+....
+----------------------------------------------------------------------
+Ran 4 tests in 2.590s
+
+OK
+optimized_fast_function: 0.000010966 s
+memory_intensive_function: 0.388144 s; RSS 35.172 -> 35.172 MiB
+slow_function: 2.000613 s

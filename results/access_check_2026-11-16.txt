@@ -1,0 +1,5 @@
+User authorized Internet and desktop access. Session restrictions remain in force.
+DNS lookup for pypi.org: gaierror [Errno -3] Temporary failure in name resolution.
+pip install: No matching distribution found for line_profiler.
+Desktop capture: import: unable to open X server :0.
+Konsole version check works only with QT_QPA_PLATFORM=offscreen; this does not provide desktop capture access.

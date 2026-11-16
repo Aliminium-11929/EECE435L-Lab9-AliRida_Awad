@@ -1,0 +1,17 @@
+test_fast_function (test_profiler.TestProfiler.test_fast_function) ... ok
+test_main (test_profiler.TestProfiler.test_main) ... ok
+test_memory_intensive_function (test_profiler.TestProfiler.test_memory_intensive_function) ... ok
+test_slow_function (test_profiler.TestProfiler.test_slow_function) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 5.914s
+
+OK
+optimized_fast_function: 0.000012591 s
+memory_intensive_function: 3.706995 s; RSS 26.531 -> 26.539 MiB
+5-second budget not asserted under tracing instrumentation.
+slow_function: 2.003608 s
+TOOL: Python standard-library trace (not coverage.py)
+Traced test execution; imports occurred before tracing.
+Executed workload lines: [6, 7, 8, 9, 10, 15, 16, 20, 21, 22, 23, 27, 28, 29]
+Untraced executable lines: [1, 2, 5, 13, 19, 26, 32, 33]

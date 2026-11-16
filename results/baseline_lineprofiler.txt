@@ -1,0 +1,39 @@
+Timer unit: 1e-09 s
+
+Total time: 2.00352 s
+File: /mnt/NVme/AUB/4th Year/Fall/EECE 435L/Lab 9/submission/lab9_AliRida_Awad/baseline/profiler.py
+Function: slow_function at line 5
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+     5                                           def slow_function():
+     6         1 2000188594.0    2e+09     99.8      time.sleep(2)
+     7         1       1461.0   1461.0      0.0      total = 0
+     8     10001    1564744.0    156.5      0.1      for i in range(10000):
+     9     10000    1764936.0    176.5      0.1          total += i ** 2
+    10         1       1510.0   1510.0      0.0      return total
+
+Total time: 3.7496e-05 s
+File: /mnt/NVme/AUB/4th Year/Fall/EECE 435L/Lab 9/submission/lab9_AliRida_Awad/baseline/profiler.py
+Function: fast_function at line 13
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    13                                           def fast_function():
+    14         1        396.0    396.0      1.1      total = 0
+    15       101      14310.0    141.7     38.2      for i in range(100):
+    16       100      22530.0    225.3     60.1          total += i ** 2
+    17         1        260.0    260.0      0.7      return total
+
+Total time: 3.59225 s
+File: /mnt/NVme/AUB/4th Year/Fall/EECE 435L/Lab 9/submission/lab9_AliRida_Awad/baseline/profiler.py
+Function: memory_intensive_function at line 20
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    20                                           def memory_intensive_function():
+    21         1        453.0    453.0      0.0      total = 0
+    22  10000001 1639445874.0    163.9     45.6      for i in range(10000000):
+    23  10000000 1952797134.0    195.3     54.4          total += i ** 2
+    24         1       1623.0   1623.0      0.0      return total
+

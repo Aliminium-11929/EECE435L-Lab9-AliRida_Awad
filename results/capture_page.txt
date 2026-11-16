@@ -1,0 +1,8 @@
+lab9_AliRida_Awad/optimized
+$ python -m coverage report -m
+[Recorded execution output: page 1]
+Name          Stmts   Miss  Cover   Missing
+-------------------------------------------
+profiler.py      21      1    95%   33
+-------------------------------------------
+TOTAL            21      1    95%
